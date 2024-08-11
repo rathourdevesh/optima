@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/optima/static/css/main.b7786379.css",
+    "main.js": "/optima/static/js/main.2d5c897d.js",
+    "static/js/453.648e49a2.chunk.js": "/optima/static/js/453.648e49a2.chunk.js",
+    "static/media/color-sharp.png": "/optima/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/optima/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/logo.svg": "/optima/static/media/logo.6c58ea370e2924af1283ba9cd4f659e3.svg",
+    "static/media/banner-bg.png": "/optima/static/media/banner-bg.2a46d6dafcc9fe2fdc47.png",
+    "static/media/project-img2.png": "/optima/static/media/project-img2.895d90093cd3c5fea522.png",
+    "static/media/project-img3.png": "/optima/static/media/project-img3.9d8e1ec8f58f9d952441.png",
+    "static/media/project-img1.png": "/optima/static/media/project-img1.ec19d95271a17f87e85b.png",
+    "static/media/header-img.svg": "/optima/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/optima/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/optima/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/optima/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/optima/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/optima/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/optima/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/optima/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/optima/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/optima/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/optima/index.html",
+    "static/media/nav-icon1.svg": "/optima/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/optima/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.b7786379.css.map": "/optima/static/css/main.b7786379.css.map",
+    "main.2d5c897d.js.map": "/optima/static/js/main.2d5c897d.js.map",
+    "453.648e49a2.chunk.js.map": "/optima/static/js/453.648e49a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7786379.css",
+    "static/js/main.2d5c897d.js"
+  ]
+}
