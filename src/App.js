@@ -29,10 +29,10 @@ const App = () => {
       <NavBar />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/services" element={<ServiceListing />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/optima/" element={<HomePage />} />
+          <Route path="/optima/services" element={<ServiceListing />} />
+          <Route path="/optima/login" element={<Login />} />
+          <Route path="/optima/signup" element={<Signup />} />
         </Routes>
       </div>
       <footer className="footer">

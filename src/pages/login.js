@@ -56,7 +56,7 @@ function Login() {
                         </form>
                     </MDBCardBody>
                     <div className="text-center">
-                        <p>Not a member? <a href="/signup">Register</a></p>
+                        <p>Not a member? <a href="/optima/signup">Register</a></p>
 
                         <div className='d-flex justify-content-between mx-auto' style={{ width: '40%' }}>
                             <MDBBtn tag='a' color='none' className='m-1' style={{ color: '#1266f1' }}>
