@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Home Planning", "Plot Design", "Design Consultancy" ];
+  const toRotate = ["Home Planning", "Plot Design", "Design Consultancy"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,12 +54,14 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">DP Solutions</span>
-                <h1>{`Reach out for`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Home Planning", "Plot Design", "Mapping" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Crafting Spaces, Shaping Dreams: Your Complete Architecture Solution.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">DP Solutions</span>
+                  {/* <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Home Planning", "Plot Design", "Mapping" ]'><span className="wrap">{text}</span></span></h1> */}
+                  <h2>Crafting Spaces, Shaping Dreams: Your Complete Architecture Solution.</h2>
+                  <HashLink to='#connect' style={{ textDecoration: 'none' }}>
+                    <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  </HashLink>
+                </div>}
             </TrackVisibility>
           </Col>
           {/* <Col xs={12} md={6} xl={5}>
