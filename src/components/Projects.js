@@ -6,7 +6,8 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { Skills } from "./Skills";
+import { ArrowRightSquare } from 'react-bootstrap-icons';
+import { useNavigate } from 'react-router-dom';
 
 export const Projects = () => {
 
@@ -27,6 +28,8 @@ export const Projects = () => {
             imgUrl: projImg3,
         }
     ];
+
+    const navigate = useNavigate();
 
     return (
         <section className="project" id="projects">
@@ -77,6 +80,7 @@ export const Projects = () => {
                         </TrackVisibility>
                     </Col>
                 </Row>
+                <button>Explore More <ArrowRightSquare size={25} onClick={() => navigate('services')} /></button>
             </Container>
             <img className="background-image-right" src={colorSharp2}></img>
         </section>
