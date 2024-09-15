@@ -64,7 +64,8 @@ const ListServices = () => {
                 )}
 
                 <Accordion defaultActiveKey="0" className="accordion-item">
-                    {servicesData.map((service, index) => (
+                    {servicesData && typeof servicesData === 'object' && !Array.isArray(servicesData)
+                    && servicesData.map((service, index) => (
                         <Accordion.Item eventKey={index.toString()} key={index}>
                             <Accordion.Header className="accordion-item">
                                 {service.name}

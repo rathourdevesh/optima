@@ -12,6 +12,7 @@ import ServiceListing from './pages/ServiceListing';
 import Login from './pages/login';
 import Signup from './pages/signup';
 import { jwtDecode } from 'jwt-decode';
+import DefaultPage from './pages/DefaultPage';
 
 
 const App = () => {
@@ -29,10 +30,12 @@ const App = () => {
       <NavBar />
       <div className="main-content">
         <Routes>
-          <Route path="/optima/" element={<HomePage />} />
-          <Route path="/optima/services" element={<ServiceListing />} />
-          <Route path="/optima/login" element={<Login />} />
-          <Route path="/optima/signup" element={<Signup />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServiceListing />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          {/* Catch-all route for undefined paths */}
+          <Route path="*" element={<DefaultPage />} />
         </Routes>
       </div>
       <footer className="footer">

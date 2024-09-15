@@ -45,12 +45,12 @@ export const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/optima" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
-                        <Nav.Link href="/optima/services" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'}>Services</Nav.Link>
+                        <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
+                        <Nav.Link href="/services" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'}>Services</Nav.Link>
                         {userInfo?.username ? (
                             <Nav.Link href="" className='navbar-link' > {userInfo.username} </Nav.Link>
                         ) : (
-                            <Nav.Link href="/optima/login" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link>
+                            <Nav.Link href="/login" className={activeLink === 'login' ? 'active navbar-link' : 'navbar-link'}>Login</Nav.Link>
                         )}
                     </Nav>
                     <span className="navbar-text">

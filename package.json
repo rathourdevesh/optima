@@ -1,7 +1,6 @@
 {
   "name": "optima",
   "version": "0.1.0",
-  "homepage": "https://rathourdevesh.github.io/optima",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",

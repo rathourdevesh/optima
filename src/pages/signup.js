@@ -36,7 +36,7 @@ function Register() {
             });
 
             if (response.status === 200) {
-                navigate('/optima/login');
+                navigate('/login');
             } else {
                 console.error('Registration failed');
             }
@@ -63,7 +63,7 @@ function Register() {
                         </form>
                     </MDBCardBody>
                     <div className="text-center">
-                        <p>Already a member? <a href="/optima/login">LogIn</a></p>
+                        <p>Already a member? <a href="/login">LogIn</a></p>
                     </div>
                 </MDBCard>
             </MDBContainer>
